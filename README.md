@@ -40,10 +40,10 @@ Output: `M:2; P:0`
 
 ## Tech
 
-- Backend: C# or Java
-- Frontend: Any
+- Backend: Java Spring.
+- Frontend: node.js, react, typescript, bootstrap.
 - Game logic runs on backend
-- Uses in-memory DB
+- Uses: in-memory DB, postgresql
 - Input is validated both on frontend and backend
 - Unit tests included
 
