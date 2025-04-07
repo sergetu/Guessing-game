@@ -1,0 +1,53 @@
+# Ignore entire frontend and backend IDE and build folders
+/GuessingGameFrontend/node_modules/
+/GuessingGameFrontend/.idea/
+/GuessingGameBackend/.idea/
+/GuessingGameBackend/.gradle/
+/GuessingGameBackend/build/
+
+GuessingGameBackend/.gradle/
+GuessingGameBackend/build/
+GuessingGameBackend/bin/
+GuessingGameBackend/out/
+# Ignore general build artifacts
+.gradle/
+build/
+bin/
+out/
+
+# Don't ignore important wrapper JAR
+!GuessingGameBackend/gradle/wrapper/gradle-wrapper.jar
+
+# Allow specific nested build/bin folders if needed (usually IDE-specific)
+/**/src/main/**/build/
+/**/src/test/**/build/
+/**/src/main/**/bin/
+/**/src/test/**/bin/
+/**/src/main/**/out/
+/**/src/test/**/out/
+
+# IntelliJ
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# Eclipse / Spring Tool Suite
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+nbbuild/
+nbproject/private/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Misc
+HELP.md
+
